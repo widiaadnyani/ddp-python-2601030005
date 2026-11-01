@@ -1,0 +1,10 @@
+print("*** LAYANAN HITUNG MATEMATIKA: PERSEGI PANJANG ***")
+print("=" * 52)
+lebar_kotak = float(input("-> Masukkan nilai LEBAR bangun (cm): "))
+panjang_kotak = float(input("-> Masukkan nilai PANJANG bangun (cm): "))
+total_luas = panjang_kotak * lebar_kotak 
+total_keliling = 2 * (panjang_kotak + lebar_kotak)
+print("-" * 52)
+print(f"** Hasil Akhir Luas      : {total_luas} cm²")
+print(f"** Hasil Akhir Keliling  : {total_keliling} cm")
+print("=" * 52)
